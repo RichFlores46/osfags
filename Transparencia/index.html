@@ -20,9 +20,10 @@
 
 </head>
 <body>
+  <div class="inicio" id="arriba"></div>
     <div class="row">
         <div class="col-md-12">
-            <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <nav class="navbar navbar-expand-xl bg-body-tertiary">
                 <div class="container-fluid">
                     <img src="../img/logo_osfags.png" id="logoimg">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,23 +60,20 @@
     </div>
 
     <div class="container">
-        <div class="row">
-          <h2 style="text-align: center; font-size: 40px;">Plataforma Nacional de Transparencia (PNT)</h2>
+          <div class="col-md-12">
+          <h2 >Plataforma Nacional de Transparencia (PNT)</h2><br>
           
           <h4 style="text-align: justify; font-size: 20px;">Conoce el sistema de portales de obligaciones de transparencia. Es el módulo de la plataforma Nacional de Transparencia (PNT)
             a través del cual, los ciudadanos podrán realizar la consulta de la información pública de los sujetos obligados de cada una
             de las Entidades Federativas y de la Federación, establecidas en la Ley General de Transparencia y acceso a la información pública,
             así como en cada una de las Leyes Locales en la Materia.</h4> 
-          </div>
-          <div class="row">
-            <div class="col"><br/>
+          <br/>
               <p style="text-align: center;">Realiza la consulta del sujeto obligado dando click en la siguiente imagen</p>
-          <a href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio">
-            <img src="../img/transparencia.png" alt="" id="img-pnt">
-          </a>
+                <a href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio">
+                  <img src="../img/transparencia.png" alt="" id="img-pnt">
+                </a>
         </div>
-        </div>
-
+        
         <div class="row"><br/>
           <div class="col-md-4 p-1"><br/>
             <a name="" id="btn-pnt" class="btn" href="transparencia/I_Marco_normativo.html" role="button">
@@ -374,11 +372,9 @@
 
         <br>
         <hr size="15px" width="100%" color="black"/>
-        <div class="row">
             <div class="col-md-12">
                 <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=DIRECCI%C3%93N%3ASIERRA%20PINTADA%20102%2CBOSQUES%20DEL%20PRADO%20SUR%2C20130%20AGUASCALIENTES.&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
             </div> 
-        </div>
         <hr size="15px" width="100%" color="black"/>
         <div class="denun text-muted" id="denun">
             <h6 style="text-align: justify;">El Órgano Superior de Fiscalización auxilia al Congreso del Estado en la revisión del ejercicio de los recursos públicos, 
@@ -387,9 +383,11 @@
                 públicas.<br/>
                 Para establecernos como una institución imparcial, confiable e innovadora eficaz en su gestión fiscalizadora siempre 
                 orientada a fomentar la previsión y la honestidad en beneficio de la sociedad y desarrollo del estado.</h6>
-                <a name="" id="btn-denun" class="btn btn-outline-light" href="../Denuncias/index.html" role="button">Denuncias</a><br/>
-              </div>
+                <a name="" id="btn-denun" class="btn btn-outline-light" href="../Denuncias/index.html" role="button">Denuncias</a>
+        </div>
+        <p> <a class="btn" role="button" href="#arriba" id="btn-arriba" ><span class="material-symbols-outlined" >arrow_upward</span></a></p>
     </div>
+    
     <div class="row">
         <div class="col-md-12">
             <div class="row" style="background-color: grey;">
@@ -414,7 +412,7 @@
         </div>
     </div>
     
-    
+    <script src="../js/arriba.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
