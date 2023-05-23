@@ -7,9 +7,9 @@
         "type": "image/png"
     }],
     "start_url": "index.html",
-    "background_color": "#f9d627",
+    "background_color": "#41cc9e",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#f9d627",
+    "theme_color": "#41cc9e",
     "description": "Weather forecast information"
 }
